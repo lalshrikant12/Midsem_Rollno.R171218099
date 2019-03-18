@@ -12,8 +12,7 @@ class calcu
 		cout<<"enter a="<<a<<"enter b"<<b;
 		diff=a-b;
 		cout<<diff;
-	}
-	void multiply(int x,int y)
+	}	void multiply(int x,int y)
 	{x=a,y=b;
 		cout<<"enter a="<<a<<"enter b"<<b;
 
@@ -28,4 +27,36 @@ class calcu
 		 cout<<divide;
 	}
 }; //class created
+int main()
+{
+    cout << "Enter operator either + or - or * or /: ";
+   in >> op;
 
+    
+
+    switch(op)
+    {
+        case 'add':
+            cout << num1+num2;
+            break;
+
+        case diff':
+            cout << num1-num2;
+            break;
+
+        case 'multiply':
+            cout << num1*num2;
+            break;
+
+        case 'divide':
+            cout << num1/num2;
+            break;
+
+        default:
+            
+            cout << "Error! operator is not correct";
+            break;
+    }
+
+    return 0;   //main function created 
+}
